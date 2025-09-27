@@ -1,0 +1,7 @@
+[project]
+name = "drc-ckd-cbr-classifier"
+version = "0.1.0"
+description = "1° Prova para a matéria de mestrado em Machine Learning na UFSM com objetivo de criar uma aplicação CBR para classificação de DRC/CKD "
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
