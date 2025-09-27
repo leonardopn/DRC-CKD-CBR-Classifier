@@ -2,6 +2,10 @@
 
 1° Prova para a matéria de mestrado em Machine Learning na UFSM com objetivo de criar uma aplicação CBR para classificação de DRC/CKD
 
+## PDF Original do trabalho
+
+[Link para o PDF original](./Prova.pdf)
+
 ## Problema
 
 Desenvolver, implementar e avaliar algoritmos de classificação para Doença Renal
