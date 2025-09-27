@@ -48,6 +48,8 @@ transformações e o pré-processamento necessários antes da modelagem:
 -   Tratamento de valores ausentes
 -   Normalização ou padronização das variáveis
 -   Demais ajustes necessários antes da modelagem
+-   O conjunto de variáveis usadas no problema de classificação binária pode ser diferente do conjunto usado no problema de classificação multi-classe
+-   Como parte do preprocessamento, identifiquem e removam variáveis que tenha uma correlação maior que 90% com o rotulo (essas variáveis podem ser diferentes nos problemas de classificação binária e multi-classe)
 
 ## Tarefas propostas (exemplos)
 
