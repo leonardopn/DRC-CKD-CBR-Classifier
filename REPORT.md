@@ -5,6 +5,28 @@
 **Professor:** Luis Alvaro Silva  
 **Data:** Setembro 2025
 
+## Como rodar o código
+
+Eu recomendo a utilização do ambiente virtual UV (https://uv.readthedocs.io/en/latest/) para garantir a reprodutibilidade do ambiente. O projeto já contém o arquivo `pyproject.toml` com todas as dependências necessárias.
+
+1. Instale o UV seguindo os passos da [documentação oficial](https://docs.astral.sh/uv/getting-started/installation).
+
+2. Instale as dependências do projeto:
+
+    ```bash
+    uv sync
+    ```
+
+3. Inicie o Jupyter Notebook:
+    ```bash
+    uv run jupyter notebook
+    ```
+4. No navegador que vai se abrir, abra o arquivo `main.ipynb`.
+
+5. Selecione o kernel `Python 3.12 (uv)` para garantir que está usando o ambiente correto e possa executar o código sem problemas.
+
+6. Execute as células do notebook na ordem, de cima para baixo ou execute todas de uma vez.
+
 ## Objetivo do Trabalho
 
 Desenvolver um sistema de **Case-Based Reasoning (CBR)** para classificar dois problemas relacionados à Doença Renal Crônica:
@@ -296,12 +318,3 @@ O sistema CBR desenvolvido demonstra **viabilidade técnica** e **relevância cl
 **Bibliotecas:** pandas, numpy, scikit-learn, matplotlib, seaborn  
 **Reprodutibilidade:** `random_state=42`, código totalmente comentado  
 **Hardware:** Computador padrão (sem GPU necessária)
-
-**Execução:**
-
-```bash
-uv sync  # Instalar dependências
-# Executar main_final.ipynb sequencialmente
-```
-
-Todas as visualizações e análises estão implementadas no notebook `main_final.ipynb` com geração automática de gráficos demonstrando o impacto das diferentes combinações de pesos.
