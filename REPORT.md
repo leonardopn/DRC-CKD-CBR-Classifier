@@ -23,9 +23,11 @@ Eu recomendo a utilização do ambiente virtual UV (https://uv.readthedocs.io/en
     ```
 4. No navegador que vai se abrir, abra o arquivo `main.ipynb`.
 
-5. Selecione o kernel `Python 3.12 (uv)` para garantir que está usando o ambiente correto e possa executar o código sem problemas.
+5. Selecione o kernel `Python 3.12` para garantir que está usando o ambiente correto e possa executar o código sem problemas.
 
 6. Execute as células do notebook na ordem, de cima para baixo ou execute todas de uma vez.
+
+**Anexo, vou enviar um vídeo curto mostrando como fazer isso.**
 
 ## Objetivo do Trabalho
 
