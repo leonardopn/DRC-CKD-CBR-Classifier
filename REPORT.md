@@ -7,7 +7,7 @@
 
 ## Como rodar o código
 
-Eu recomendo a utilização do ambiente virtual UV (https://uv.readthedocs.io/en/latest/) para garantir a reprodutibilidade do ambiente. O projeto já contém o arquivo `pyproject.toml` com todas as dependências necessárias.
+Eu recomendo a utilização do ambiente virtual [UV](https://docs.astral.sh/uv/getting-started/installation/) para garantir a reprodutibilidade do ambiente. O projeto já contém o arquivo `pyproject.toml` com todas as dependências necessárias.
 
 1. Instale o UV seguindo os passos da [documentação oficial](https://docs.astral.sh/uv/getting-started/installation).
 
@@ -23,9 +23,9 @@ Eu recomendo a utilização do ambiente virtual UV (https://uv.readthedocs.io/en
     ```
 4. No navegador que vai se abrir, abra o arquivo `main.ipynb`.
 
-5. Selecione o kernel `Python 3.12` para garantir que está usando o ambiente correto e possa executar o código sem problemas.
+5. Selecione o kernel `Python 3.12` ou o kernel padrão que vem com o notebook para garantir que está usando o ambiente correto e possa executar o código sem problemas.
 
-6. Execute as células do notebook na ordem, de cima para baixo ou execute todas de uma vez.
+6. Execute as células do notebook na ordem, de cima para baixo ou execute todas de uma vez e aguarde.
 
 **Anexo, vou enviar um vídeo curto mostrando como fazer isso.**
 

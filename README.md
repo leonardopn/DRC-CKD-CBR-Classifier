@@ -2,6 +2,32 @@
 
 1° Prova para a matéria de mestrado em Machine Learning na UFSM com objetivo de criar uma aplicação CBR para classificação de DRC/CKD
 
+## Como rodar o código
+
+Eu recomendo a utilização do ambiente virtual [UV](https://docs.astral.sh/uv/getting-started/installation/) para garantir a reprodutibilidade do ambiente. O projeto já contém o arquivo `pyproject.toml` com todas as dependências necessárias.
+
+1. Instale o UV seguindo os passos da [documentação oficial](https://docs.astral.sh/uv/getting-started/installation).
+
+2. Instale as dependências do projeto:
+
+    ```bash
+    uv sync
+    ```
+
+3. Inicie o Jupyter Notebook:
+    ```bash
+    uv run jupyter notebook
+    ```
+4. No navegador que vai se abrir, abra o arquivo `main.ipynb`.
+
+5. Selecione o kernel `Python 3.12` ou o kernel padrão que vem com o notebook para garantir que está usando o ambiente correto e possa executar o código sem problemas.
+
+6. Execute as células do notebook na ordem, de cima para baixo ou execute todas de uma vez e aguarde.
+
+**Anexo, vou enviar um vídeo curto mostrando como fazer isso.**
+
+[Vídeo de como rodar usando Jupyter](./HOW_TO_RUN.mp4)
+
 ## PDF Original do trabalho
 
 [Link para o PDF original](./Prova.pdf)
