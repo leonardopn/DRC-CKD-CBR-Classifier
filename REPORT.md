@@ -29,6 +29,8 @@ Eu recomendo a utilização do ambiente virtual UV (https://uv.readthedocs.io/en
 
 **Anexo, vou enviar um vídeo curto mostrando como fazer isso.**
 
+[Vídeo de como rodar usando Jupyter](./HOW_TO_RUN.mp4)
+
 ## Objetivo do Trabalho
 
 Desenvolver um sistema de **Case-Based Reasoning (CBR)** para classificar dois problemas relacionados à Doença Renal Crônica:
